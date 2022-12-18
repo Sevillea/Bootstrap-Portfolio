@@ -1,21 +1,28 @@
 
-.nav-item {
-    display:flex;
-    align-content: row;
-    float:right
-}
-.jumbotron {
-    background-color:darkgray;
-    display:flex;
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    float:right;
+    
 }
 
-.display-4 {
-    font-size:40px;
+.title {
+    float:left;
 }
 
-ul {
-    display:flex;
-    align-items: flex-end;
-   
+
+
+/* This will style all card img */
+.card {
+    height:auto;
+    width:auto;
 }
+
+.card-title {
+    font-size: 20px;
+}
+
+
 
