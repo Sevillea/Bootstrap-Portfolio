@@ -9,12 +9,24 @@
 }
 
 .title {
+    width: 50%;
     float:left;
+    border-bottom: solid black;
 }
 
 
 
+
 /* This will style all card img */
+
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
 .card {
     height:auto;
     width:auto;
