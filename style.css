@@ -18,10 +18,35 @@
     
 }
 */
-#nav-buttons{
-    
+
+/* Header Section */
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.subtitle {
+    font-size: 30px;;
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+/* NavBar Section */
+
+#nav-buttons {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* About Me Section */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Card Styling */
 .card {
     
     padding:30px;
@@ -33,6 +58,14 @@
 height:500px;
 }
 
+.card-title {
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text {
+    font-family:'Courier New', Courier, monospace;
+}
 
 
 /* This will style all card img */
