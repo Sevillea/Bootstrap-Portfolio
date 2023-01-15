@@ -1,40 +1,43 @@
+/* To Do:
+. Add media queries
+. Enable responsive imagery
+. Add another card row
+. link cards to repos.
+. Add contac tme section.
 
 
+*/
+
+/*
 .navbar {
     background-color: aqua;
     display: flex;
     justify-content: space-around;
     float:right;
+    margin-right: 100px;
+    
+}
+*/
+#nav-buttons{
     
 }
 
-.title {
-    width: 50%;
-    float:left;
-    border-bottom: solid black;
+.card {
+    
+    padding:30px;
+    margin-top: 50px;
+    background-color: aquamarine;
 }
 
+.card-img-top{
+height:500px;
+}
 
 
 
 /* This will style all card img */
 
 
-.row {
-    display: flex;
-    justify-content: space-evenly;
-    
-
-}
-
-.card {
-    height:auto;
-    width:auto;
-}
-
-.card-title {
-    font-size: 20px;
-}
 
 
 
