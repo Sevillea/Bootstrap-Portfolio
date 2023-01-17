@@ -72,8 +72,30 @@ height:500px;
 
 /* This will style the footer elements */
 
+.container-contact-me{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+
 .GitHub{
-    font-size:60px;
+    font-size:40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.spotify{
+    font-size:40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.email-me{
+    font-size:40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.resume{
+    font-size:40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
