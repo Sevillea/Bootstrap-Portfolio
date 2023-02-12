@@ -33,5 +33,8 @@ https://sevillea.github.io/Bootstrap-Portfolio/
 
 https://github.com/Sevillea/Bootstrap-Portfolio
 
+Image of deployed page: 
 
 
+
+![image](https://user-images.githubusercontent.com/109441410/218325787-6b950c39-12a7-4d84-967c-140770cbc1f3.png)
