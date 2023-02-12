@@ -18,8 +18,26 @@
     
 }
 */
+html, body {
+    overflow: scroll;
+    scroll-behavior: smooth;
+   
+    }
 
+    .body {
+        margin-bottom: 300px;
+        padding-bottom: 100px;
+    }
 /* Header Section */
+
+.profile-picture {
+    width:200px;
+    border: solid;
+    border-radius: 10%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 .title {
     display: flex;
     justify-content: center;
@@ -28,7 +46,6 @@
 
 .header {
     background-color: #D3D3D3;
-
 }
 
 .subtitle {
@@ -58,6 +75,14 @@
     display: flex;
     justify-content: center;
     font-family:'Courier New', Courier, monospace;
+    padding-top:40px;
+    padding-bottom:30px;
+}
+
+.intro {
+    font-size: 20px;
+    text-align: center;
+    padding-top:60px;
 }
 
 /* Card Styling */
@@ -107,36 +132,37 @@ height:500px;
 /* FOOTER LINKS */
 
 .footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     height:200px;
-    background: grey
+    background: #ECECEC;
+    border: solid, #D3D3D3;
  }
 
 
 .GitHub a {
     font-size:30px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 .spotify a {
     font-size:30px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 .email-me a {
     font-size:30px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 .resume a {
     font-size:30px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white
+    color: black;
 }
 
 
