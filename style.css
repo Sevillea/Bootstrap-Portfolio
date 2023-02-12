@@ -26,6 +26,11 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.header {
+    background-color: #D3D3D3;
+
+}
+
 .subtitle {
     font-size: 30px;;
     display: flex;
@@ -35,7 +40,16 @@
 /* NavBar Section */
 
 #nav-buttons {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-fluid {
+    background-color: #D3D3D3;
+    
+}
+
+/* BODY */
+.body {
+    background-color: #D3D3D3;
 }
 
 /* About Me Section */
@@ -48,10 +62,11 @@
 
 /* Card Styling */
 .card {
-    
+    display: flex;
     padding:30px;
     margin-top: 50px;
     background-color: aquamarine;
+    
 }
 
 .card-img-top{
@@ -67,8 +82,17 @@ height:500px;
     font-family:'Courier New', Courier, monospace;
 }
 
-
 /* This will style all card img */
+
+.row {
+    display:flex;
+    justify-content: center;
+}
+
+.row-2{
+    display:flex;
+    justify-content: center;
+}
 
 /* This will style the footer elements */
 
@@ -76,30 +100,59 @@ height:500px;
     display:flex;
     justify-content: space-around;
     margin-top:50px;
-}
-
-.GitHub{
-    font-size:40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
     
 }
 
-.spotify{
-    font-size:40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* FOOTER LINKS */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:200px;
+    background: grey
+ }
+
+
+.GitHub a {
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.email-me{
-    font-size:40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.spotify a {
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.resume{
-    font-size:40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.email-me a {
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.resume a {
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white
 }
 
 
+@media  screen and (min-width:768px)
 
+  {
+    .card .card-img-top {
+        height:250px;
+
+      
+        }
+
+        .intro {
+            margin-left:10px;
+            margin-right: 10px;
+        }
+    }
 
 
